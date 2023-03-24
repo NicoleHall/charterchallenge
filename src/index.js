@@ -108,6 +108,7 @@ class App extends React.Component {
                 <div className="playground-link">
                 <a
                   className="testing-talks-logo"
+                  data-id="header-logo"
                   href="/"
                 >
                 </a>
@@ -115,7 +116,7 @@ class App extends React.Component {
               <div className="playground-link">
                   <a
                       className="ContactItemPlayground"
-                      data-id="playground-button"
+                      data-id="top-playground-button"
                       key="playground"
                       href="/playground"
                   >
